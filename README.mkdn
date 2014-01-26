@@ -1,0 +1,27 @@
+# Combine File InputFormat demo
+
+Demo project for my [blog post](http://www.idryman.org/blog/2013/09/22/process-small-files-on-hadoop-using-combinefileinputformat-1/).
+
+## INSTALL
+
+Download the project and run the command:
+
+```
+mvn package
+```
+
+The compiled jar is `target/CombineFileDemo-0.0.1-SNAPSHOT.jar`.
+
+## Usage
+
+```
+hadoop jar CombineFileDemo-0.0.1-SNAPSHOT.jar TestMain <src> <dst>
+```
+
+## License
+
+Copyright © 2014 Felix Chern
+
+Distributed under the Eclipse Public License either version 1.0 or (at 
+your option) any later version.
+
